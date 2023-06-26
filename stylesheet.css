@@ -1,0 +1,210 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#hero {
+    background-image: url("./assets/herobackground.png");
+    background-size: cover;
+    background-size:100%;
+    height:100vh;
+}
+
+.img-fluid {
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: black;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: rgb(146, 13, 121);
+}
+
+#About {
+background-color: #FDCEDF;
+height:100vh;
+text-align: center;
+padding: 2% 5%;
+}
+
+p, h4 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+h2 {
+    padding:50px;
+    font-size: 24px;
+}
+
+.hobbies, .about {
+    padding: 40px;
+    margin-bottom: 0%;
+    justify-content: center;
+    display: flex;
+    gap:5rem;
+}
+
+.div-resume {
+    margin-left: 80px;
+}
+
+.grid-skills {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+#Resume {
+    padding: 50px;
+    background-color: #F8E8EE;
+}
+
+#contact {
+    background-image: url("./assets/backgroundcontact.jpg");
+    background-size: cover;
+    background-size:100%;
+    height:100vh;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.contact-text, .contact {
+    text-align: left;
+    padding-left: 0%;
+}
+
+.container, .footer {
+    grid-area: 2 / 1 / 2 / 3;
+    font-size: 10px;
+}
+
+#projects {
+    background-color: #F8E8EE;
+    text-align: center;
+   height: 100vh;
+}
+
+.card-text {
+    font-size: 14px;
+ }
+
+.CV {
+    color:rgb(146, 13, 121);
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.CV:hover {
+    color:rgb(94, 9, 78);
+    text-decoration:underline;
+}
+
+.card, .shadow-sm {
+    width: 15rem;
+}
+
+.lead, .display-5 {
+    font-size: 28px;
+    margin-left: 12px;
+}
+
+/* For devices lower than 768px (Mobile) */
+@media (max-width:500px) {
+    p, h4, .nav-link {
+        font-size: 12px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+
+    .lead, .display-5 {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+
+    .footer {
+        margin: 0px;
+        padding: 0px;
+        font-size: 8px;
+     }
+
+     h3 {
+        font-size: 8px;
+     }
+
+     .card-text {
+        font-size: 8px;
+     }
+
+     .div-resume {
+        margin-left: 8px;
+    }
+
+    .hobbies, .about, .projects {
+        padding: 10%;
+        margin-bottom: 0%;
+        gap:0.5rem;
+    }
+
+     .card, .shadow-sm {
+        width:9rem;
+    }
+
+    .img-fluid {
+        width:90%;
+    }
+
+    .CV {
+        font-size: 15px;
+    }
+}
+
+/* For devices lower than 768px (Mobile) */
+@media (min-width:500px) and (max-width:768px) {
+    .p1, h4 {
+        font-size: 12px;
+    }
+
+    .hobbies, .about, .projects {
+        padding-bottom: 6%;
+        margin-bottom: 0%;
+        gap:1.5rem;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .lead, .display-5 {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+
+     h3 {
+        font-size: 12px;
+     }
+
+     .card-text {
+        font-size: 10px;
+     }
+
+     .card, .shadow-sm {
+        width: 12rem;
+    }
+}
+
+
+
